@@ -1,0 +1,80 @@
+body{font-family: Helvetica;
+     font-size: 22px;
+     color: seashell;
+     background-color: black;
+     opacity: 0.9;
+     }
+
+.logo{padding: 10px;
+      height: 50px;}
+
+.nav{color: white;
+     text-align: right;
+    display: flex;
+    padding: 10px;
+   }
+
+.nav-master{justify-content: space-between;
+            display: flex;
+            position: fixed;
+            z-index: 20;
+            background-color: black;
+            border-bottom: seashell solid 1px;}
+
+.below-nav{position: relative;
+            top: 69px;}
+#mission{background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+         width: 1200px;
+         height: 700px;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          align-content: center;
+          }
+.our{background-color: black;
+     justify-content: center;
+      align-items: center;
+      text-align: center;}
+
+#tea{text-align: center;
+     }
+
+.picture{display: inline-flex;
+          flex-direction: column;
+          }
+
+.one, .two{display: flex;
+          flex-direction: row;
+          justify-content: center;
+          }
+
+.child{display:block;
+        margin: 10px;
+      }
+
+#locations{background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+            height: 500px;
+            justify-content: space-around;
+            text-align: center;
+            display: block;
+            align-items: center;
+            align-content:center;
+              }
+
+
+.downtown, .east, .oakdale{background-color: black;
+                            display: flex;
+                             height: 300px;
+                            width: 300px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            opacity: 1;}
+
+.container{display: flex;
+          justify-content: space-around;}
+
+.contact{text-align: center;
+         height: 200px;}
+.copyright{margin-left: 20px;}
